@@ -1,0 +1,10 @@
+2026-08-01 13:39:21,317-INFO-Initialized CSVReaderPipeline with fiel_path:data/sample_users.csv and delimeter: ,
+2026-08-01 13:39:57,653-INFO-Initialized CSVReaderPipeline with fiel_path:data/employee.csv and delimeter: ,
+2026-08-01 13:39:57,654-INFO-File data/employee.csv exists and is accessible
+2026-08-01 13:39:57,654-INFO-Starting CSV stream ingestion...
+2026-08-01 13:39:57,688-INFO-Schema detected. Columns (1): ['EmployeeID\tFirstName\tLastName\tSalary\tDepartment']
+2026-08-01 13:40:31,141-INFO-Initialized CSVReaderPipeline with fiel_path:data/employee.csv and delimeter: ,
+2026-08-01 13:40:31,141-INFO-File data/employee.csv exists and is accessible
+2026-08-01 13:40:31,142-INFO-Starting CSV stream ingestion...
+2026-08-01 13:40:31,142-INFO-Schema detected. Columns (1): ['EmployeeID\tFirstName\tLastName\tSalary\tDepartment']
+2026-08-01 13:40:31,143-INFO-Ingestion Finished! Total Successful: 4 | Total Failed: 0
