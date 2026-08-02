@@ -4,7 +4,7 @@ from pipeline.reader import CSVReaderPipeline
 from pipeline.exceptions import CSVEngineError
 
 def run():
-    target_csv = "data/employee.csv"
+    target_csv = "data/employee1.csv"
     
     try:
         pipeline = CSVReaderPipeline(file_path=target_csv, delimeter=",")

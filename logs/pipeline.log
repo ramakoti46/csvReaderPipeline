@@ -8,3 +8,23 @@
 2026-08-01 13:40:31,142-INFO-Starting CSV stream ingestion...
 2026-08-01 13:40:31,142-INFO-Schema detected. Columns (1): ['EmployeeID\tFirstName\tLastName\tSalary\tDepartment']
 2026-08-01 13:40:31,143-INFO-Ingestion Finished! Total Successful: 4 | Total Failed: 0
+2026-08-02 19:39:17,939-INFO-Initialized CSVReaderPipeline with file_path:data/employee1.csv and delimeter: ,
+2026-08-02 19:39:17,940-INFO-File data/employee1.csv exists and is accessible
+2026-08-02 19:39:17,940-INFO-Starting CSV stream ingestion...
+2026-08-02 19:39:17,940-INFO-Schema detected. Columns (5): ['EmployeeID', 'FirstName', 'LastName', 'Salary', 'Department']
+2026-08-02 19:39:17,941-INFO-Ingestion Finished! Total Successful: 4 | Total Failed: 0
+2026-08-02 19:40:00,733-INFO-Initialized CSVReaderPipeline with file_path:data/employee1.csv and delimeter: ,
+2026-08-02 19:40:00,734-INFO-File data/employee1.csv exists and is accessible
+2026-08-02 19:40:00,734-INFO-Starting CSV stream ingestion...
+2026-08-02 19:40:00,735-INFO-Schema detected. Columns (5): ['EmployeeID', 'FirstName', 'LastName', 'Salary', 'Department']
+2026-08-02 19:40:00,735-INFO-Ingestion Finished! Total Successful: 4 | Total Failed: 0
+2026-08-02 19:41:20,524-INFO-Initialized CSVReaderPipeline with file_path:data/employee1.csv and delimeter: ,
+2026-08-02 19:41:20,525-INFO-File data/employee1.csv exists and is accessible
+2026-08-02 19:41:20,525-INFO-Starting CSV stream ingestion...
+2026-08-02 19:41:20,525-INFO-Schema detected. Columns (5): ['EmployeeID', 'FirstName', 'LastName', 'Salary', 'Department']
+2026-08-02 19:44:26,871-INFO-Initialized CSVReaderPipeline with file_path:data/employee1.csv and delimeter: ,
+2026-08-02 19:44:26,872-INFO-File data/employee1.csv exists and is accessible
+2026-08-02 19:44:26,873-INFO-Starting CSV stream ingestion...
+2026-08-02 19:44:26,873-INFO-Schema detected. Columns (5): ['EmployeeID', 'FirstName', 'LastName', 'Salary', 'Department']
+2026-08-02 19:44:26,873-WARNING-[DATA QUALITY ALERT] Line 4: Expected 5 columns, but got 4.
+2026-08-02 19:44:26,874-INFO-Ingestion Finished! Total Successful: 3 | Total Failed: 1

@@ -67,7 +67,7 @@ class CSVReaderPipeline:
                     yield row_dict
 
                 except CorruptRowError as err:
-                    self.failed_rows += 1
+                    self.failedrows += 1
                     logging.warning(f"[DATA QUALITY ALERT] {err}")
                     continue  # Skip corrupted row and continue ingestion
 
